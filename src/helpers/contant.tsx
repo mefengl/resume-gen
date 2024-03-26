@@ -150,6 +150,14 @@ export const CONTENT_OF_MODULE = ({ intl }) => {
       },
       {
         type: 'input',
+        attributeId: 'twitter',
+        displayName: intl.formatMessage({ id: 'Twitter' }),
+        cfg: {
+          placeholder: 'Please input your twitter account, optional',
+        },
+      },
+      {
+        type: 'input',
         attributeId: 'zhihu',
         displayName: intl.formatMessage({ id: '知乎' }),
         cfg: {

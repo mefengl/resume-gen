@@ -4,6 +4,7 @@ import {
   MobileFilled,
   MailFilled,
   GithubFilled,
+  TwitterCircleFilled,
   ZhihuCircleFilled,
   TrophyFilled,
   CheckCircleFilled,
@@ -113,6 +114,21 @@ export const Template1: React.FC<Props> = props => {
                   }}
                 >
                   {profile.github}
+                </span>
+              </div>
+            )}
+            {profile?.twitter && (
+              <div className="github">
+                <TwitterCircleFilled
+                  style={{ color: theme.color, opacity: 0.85 }}
+                />
+                <span
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
+                    window.open(profile.twitter);
+                  }}
+                >
+                  {profile.twitter}
                 </span>
               </div>
             )}
