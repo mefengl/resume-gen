@@ -76,5 +76,8 @@
   "bugs": {
     "url": "https://github.com/visiky/resume/issues"
   },
-  "homepage": "https://github.com/visiky/resume#readme"
+  "homepage": "https://github.com/visiky/resume#readme",
+  "engines": {
+    "node": "^16.0.0"
+  }
 }
